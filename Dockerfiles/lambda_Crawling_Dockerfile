@@ -1,0 +1,11 @@
+FROM public.ecr.aws/lambda/python:3.7
+
+COPY requirements.txt ./
+RUN pip install --upgrade pip \
+  && pip install -r requirements.txt
+
+COPY /lambda/lambda_Crawling.py ./
+COPY /lambda/python ./
+COPY /bin /var/task/bin/
+
+CMD [ "lambda_Crawling.lambda_handler" ]
