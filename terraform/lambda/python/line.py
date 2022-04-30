@@ -11,7 +11,7 @@ def stock_availability(item):
 
 def stock_not_availability(item):
     url = "https://notify-api.line.me/api/notify"
-    access_token = 'n0CYWYzGFoDVOjK4dnyNkRqId5DlBObT7pnbdccDRf0'
+    access_token = 'access_token'
     headers = {'Authorization': 'Bearer ' + access_token}
 
     message = 'id:'+str(item['id'])+'、商品名:「'+item['name']+'」が「在庫なし」になりました。'
