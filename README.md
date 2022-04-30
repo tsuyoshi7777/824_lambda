@@ -1,6 +1,6 @@
 # AWS Lambda + Docker + Terraform + Python + Selenium スクレイピング開発
 
-AWS AWS Lambda + Docker + Terraform + Python + Selenium + SQS + DynamoDB + CloudwatchEvents + LINE がリソースです。
+AWS Lambda + Docker + Terraform + Python + Selenium + SQS + DynamoDB + CloudwatchEvents + LINE がリソースです。
 
 Terraformで、AWSのリソースは全て作成しています。（S3、DynamoDB以外）
 
